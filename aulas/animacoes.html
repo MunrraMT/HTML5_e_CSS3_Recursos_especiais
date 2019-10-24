@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animações</title>
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <style>  
+
+        #caixa {text-align: center; width: 300px; height: 300px; background: rgb(124, 14, 14);}
+        h1, p {color: white;}
+    
+        @keyframes animacao-caixa-bg {
+            from {background: rgb(124, 14, 14); border-radius: 0; margin-left: 0; top: 0;}
+            to {background: rgb(14, 124, 14); border-radius: 300px; margin-left: 45%; top: 200px;}
+        }  
+        
+        @-webkit-keyframes animacao-caixa-bg {
+            from {background: rgb(124, 14, 14); border-radius: 0; margin-left: 0; top: 0;}
+            to {background: rgb(14, 124, 14); border-radius: 300px; margin-left: 45%; top: 200px;}
+        }  
+        
+        @-moz-keyframes animacao-caixa-bg {
+            from {background: rgb(124, 14, 14); border-radius: 0; margin-left: 0; top: 0;}
+            to {background: rgb(14, 124, 14); border-radius: 300px; margin-left: 45%; top: 200px;}
+        }  
+   
+        @-o-keyframes animacao-caixa-bg {
+            from {background: rgb(124, 14, 14); border-radius: 0; margin-left: 0; top: 0;}
+            to {background: rgb(14, 124, 14); border-radius: 300px; margin-left: 45%; top: 200px;}
+        }  
+    
+        @keyframes animacao-caixa-txt {
+            from {padding-top: 0;}
+            to {padding-top: 50px;}
+        }  
+        
+        @-webkit-keyframes animacao-caixa-txt {
+            from {padding-top: 0;}
+            to {padding-top: 50px;}
+        }  
+        
+        @-moz-keyframes animacao-caixa-txt {
+            from {padding-top: 0;}
+            to {padding-top: 50px;}
+        }  
+
+        @-o-keyframes animacao-caixa-txt {
+            from {padding-top: 0;}
+            to {padding-top: 50px;}
+        }  
+
+        .animacao-teste {
+            /*
+            animation-name: animacao-caixa-bg;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            */
+
+            animation: animacao-caixa-bg 5s 2s infinite alternate;
+            -webkit-animation: animacao-caixa-bg 5s 2s infinite alternate;
+            -moz-animation: animacao-caixa-bg 5s 2s infinite alternate;
+            -o-animation: animacao-caixa-bg 5s 2s infinite alternate;
+            position: relative;
+        }
+
+        .animacao-txt {
+            /*
+            box-sizing: border-box;
+            animation-name: animacao-caixa-txt;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            */
+
+            animation: animacao-caixa-txt 5s 2s infinite alternate;
+            -webkit-animation: animacao-caixa-txt 5s 2s infinite alternate;
+            -moz-animation: animacao-caixa-txt 5s 2s infinite alternate;
+            -o-animation: animacao-caixa-txt 5s 2s infinite alternate;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="caixa" class="animacao-teste">
+        <h1 class="animacao-txt">O que é Lorem Ipsum?</h1>
+        <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI</p>
+    </div>
+
+</body>
+</html>
