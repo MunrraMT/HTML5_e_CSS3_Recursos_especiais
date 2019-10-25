@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox - Flexible Box LayOut</title>
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <style type="text/css">
+    
+        #conteudo {
+            background: #dcdcdc;
+            width: 550px;
+            height: 300px;
+            display: flex;
+            /*
+            row|row-reverse|column|column-reverse
+            */
+            flex-direction: row;
+
+            /*
+            nowrap|wrap|wrap-reverse
+            */
+            flex-wrap: wrap;
+            
+            /*
+            flex-start|flex-end|center|space-between|space-around
+            */
+            justify-content: space-around;
+            
+            /*
+            stretch|center|flex-start|flex-end|baseline
+            */
+            align-items: center;
+        }
+        .item {
+            background: white;
+            border: 1px solid gray;
+            margin: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Flexbox</h1>
+    <div id="conteudo">
+        <div class="item">01</div>
+        <div class="item">02</div>
+        <div class="item">03</div>
+        <div class="item">04</div>
+    </div>
+
+</body>
+</html>
