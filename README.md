@@ -11,15 +11,9 @@
     </thead>
     <tbody>
         <tr>
-            <td>Para ver o site feito por min:</td>
+            <td>Para ver o site do curso:</td>
             <td>
-            <a href="https://munrramt.github.io/HTML5_e_CSS3_Recursos_especiais/Projeto-06/ByAndre/index.html"> AQUI </a>
-            </td>
-        </tr>
-        <tr>
-            <td>Para ver o site feito pelo professor do curso:</td>
-            <td>
-            <a href="https://munrramt.github.io/HTML5_e_CSS3_Recursos_especiais/Projeto-06/ByProfessor/index.html"> AQUI </a>
+            <a href="https://munrramt.github.io/HTML5_e_CSS3_Recursos_especiais/Projeto-06/index.html"> AQUI </a>
             </td>
         </tr>
         <tr>
