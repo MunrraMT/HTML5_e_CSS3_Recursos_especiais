@@ -13,13 +13,13 @@
         <tr>
             <td>Para ver o site do curso:</td>
             <td>
-            <a href="https://munrramt.github.io/HTML5_e_CSS3_Recursos_especiais/Projeto-06/index.html"> AQUI </a>
+            <a href="https://munrramt.github.io/HTML5_e_CSS3_Recursos_especiais/projeto-06/index.html"> AQUI </a>
             </td>
         </tr>
         <tr>
             <td>Para ver o código no GitHUB:</td>
             <td>
-            <a href="https://github.com/MunrraMT/HTML5_e_CSS3_Recursos_especiais/Projeto-06"> AQUI </a>
+            <a href="https://github.com/MunrraMT/HTML5_e_CSS3_Recursos_especiais/Projeto-06/"> AQUI </a>
             </td>
         </tr>
     </tbody>
